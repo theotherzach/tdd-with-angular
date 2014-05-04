@@ -2,26 +2,13 @@
 
 ## Why You Should Care
 
-JavaScript gives you superpowers. If you already know Rails, then familiarity with JavaScript and a framework like Angular or Ember acts as a force multiplier. According to Hired.com's RailsConf program insert,
+JavaScript gives you superpowers. If you already know a backend framework like Rails, then familiarity with JavaScript and a framework like Angular or Ember acts as a force multiplier. According to Hired.com's RailsConf program insert,
 
->Ruby engineers that know Angularjs get **20%** more interview requests.
+>engineers that know Angularjs get **20%** more interview requests
 
 More importantly, this stuff can be super fun.
 
-## Overview
-
-1. [Read Deck](https://speakerdeck.com/theotherzach/test-drive-a-browser-game-with-angularjs)
-2. Start with EITHER lineman_start or static_start. Use the static project if you're interested in JavaScript and don't care about modern tooling. Otherwise use Lineman. (Details in setup below.)
-3. Follow steps outlined in the deck. They're very rough as they were meant to be used as we were following along in the workshop. Email zach@testdouble.com if you would like more detail. If I don't get emails, I won't worry about outlining them in greater detail.
-4. Cheat by looking at EITHER 02a_lineman_finish or 02b_static_finish.
-
-
-
-By Zach Briggs, Todd Kaufman, and Justin Searls of [Test Double](http://testdouble.com/)
-
 ## Setup
-
-### With Internet Access
 
 1. Clone this repo: `git@github.com:testdouble/railsconf-test-drive-javascript.git`
 * Install [node](http://nodejs.org/download/)
@@ -30,11 +17,6 @@ By Zach Briggs, Todd Kaufman, and Justin Searls of [Test Double](http://testdoub
 * In tab 1, run `lineman run`
 * In tab 2, run `lineman spec`
 * In your browser, go to `[http://localhost:8000/](http://localhost:8000/)
-
-### Without Internet Access
-1.  Copy the project from a provided USB stick to where you put code
-* `cd static_start`
-* `open index.html`
 
 ## Building Battleship
 ![Mockup](/mockup.png?raw=true)
